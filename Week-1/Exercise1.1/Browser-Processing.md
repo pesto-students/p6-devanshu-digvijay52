@@ -39,3 +39,12 @@ The Rendering Process includes steps like Style, Layout, Paint and in some cases
 - Painting involves drawing every visual part of an element to the screen, including text, colors, borders, shadows, and replaced elements like buttons and images. 
 - When sections of the document are drawn in different layers, these layers are sent to GPU to finally draw it on the screen by performing Composting Operations
 
+
+## MISC - Client Side Data Storage(Browser)
+
+The basic idea is to store data on client’s machine and then use as required. Some of the uses include Personalized Site Preference, Persisting Activity, Performance, Save Data for User. There are some cases in which client and server-side storage is used together, for e.g. - Downloading music on client machine to play later.
+
+- Cookies: They are generally Used to Store Session IDs and access Tokens.
+- Modern Web Storage: We can use Web Storage API for simple use cases to store key value pair and IndexedDB for more complex Data like video, images etc. and Cache API to store HTTP responses to specific requests.
+
+One key feature of web storage is that the data persists between page loads (and even when the browser is shut down, in the case of localStorage).
