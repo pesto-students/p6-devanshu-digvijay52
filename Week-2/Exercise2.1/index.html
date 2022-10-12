@@ -7,15 +7,163 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Lorem Ipsum/title>
+        <title>Lorem Ipsum </title>
         <meta name="description" content="Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <div id="main-container">
+            <h1>Lorem Ipsum</h1>
+            <h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
+        
+        <div class="articles-data">
+            <img src="image.jpeg" alt="Test Image">
+            <article>
+                <h5>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h5>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            </article>
+
+            <article>
+                <h5>The standard Lorem Ipsum passage, used since the 1500s</h5>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </article>
+
+            <article>
+                <h5>The standard Lorem Ipsum passage, used since the 1500s</h5>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </article>
+        </div>
+        <div class="form-container">
+            <form id="form">
+ 
+
+                <div class="form-control">
+                    <label for="name" id="label-name">
+                        Name
+                    </label>
+         
+
+                    <input type="text"
+                           id="name"
+                           placeholder="Enter your name" required />
+                </div>
+          
+                <div class="form-control">
+                    <label for="email" id="label-email">
+                        Email
+                    </label>
+         
+ 
+                    <input type="email"
+                           id="email"
+                           placeholder="Enter your email" required />
+                </div>
+          
+                <div class="form-control">
+                    <label for="age" id="label-age">
+                        Age
+                    </label>
+         
+        
+                    <input type="number"
+                           id="age"
+                           placeholder="Enter your age" value="1" min="1"/>
+                </div>
+          
+                <div class="form-control">
+                    <label for="role" id="label-role">
+                        Which option best describes you?
+                    </label>
+                     
+   
+                    <select name="role" id="role">
+                        <option value="student">Student</option>
+                        <option value="intern">Intern</option>
+                        <option value="professional">
+                            Professional
+                        </option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+          
+                <div class="form-control">
+                    <label>
+                        Would you recommend GeeksforGeeks
+                        to a friend?
+                    </label>
+         
+                    <label for="recommed-1">
+                        <input type="radio"
+                               id="recommed-1"
+                               name="recommed">Yes</input>
+                    </label>
+                    <label for="recommed-2">
+                        <input type="radio"
+                               id="recommed-2"
+                               name="recommed">No</input>
+                    </label>
+                    <label for="recommed-3">
+                        <input type="radio"
+                               id="recommed-3"
+                               name="recommed">Maybe</input>
+                    </label>
+                </div>
+          
+                <div class="form-control">
+                    <label>Languages and Frameworks known
+                        <small>(Check all that apply)</small>
+                    </label>
+                    <label for="inp-1">
+                        <input type="checkbox"
+                               name="inp">C</input></label>
+                    <label for="inp-2">
+                        <input type="checkbox"
+                               name="inp">C++</input></label>
+                    <label for="inp-3">
+                        <input type="checkbox"
+                               name="inp">C#</input></label>
+                    <label for="inp-4">
+                        <input type="checkbox"
+                               name="inp">Java</input></label>
+                    <label for="inp-5">
+                        <input type="checkbox"
+                               name="inp">Python</input></label>
+                    <label for="inp-6">
+                        <input type="checkbox"
+                               name="inp">JavaScript</input></label>
+                    <label for="inp-7">
+                        <input type="checkbox"
+                               name="inp">React</input></label>
+                    <label for="inp-7">
+                        <input type="checkbox"
+                               name="inp">Angular</input></label>
+                    <label for="inp-7">
+                        <input type="checkbox"
+                               name="inp">Django</input></label>
+                    <label for="inp-7">
+                        <input type="checkbox"
+                               name="inp">Spring</input></label>
+                </div>
+          
+                <div class="form-control">
+                    <label for="comment">
+                        Any comments or suggestions
+                    </label>
+         
+                    <textarea name="comment" id="comment"
+                        placeholder="Enter your comment here">
+                    </textarea>
+                </div>
+          
+ 
+                <button type="submit" value="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+        
+        </div>
         
         <script src="" async defer></script>
     </body>
